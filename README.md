@@ -1,6 +1,6 @@
-# vworld-marker-tutorial
+# vworld-marker-map
 
-`vworld-marker-tutorial`는 V-WORLD Open API를 사용하여 지도에 마커를 표시하는 간단한 프로젝트입니다.
+`vworld-marker-map`는 V-WORLD Open API를 사용하여 지도에 마커를 표시하는 간단한 프로젝트입니다.
 
 <img src="./public/sample.png" alt="vworld marker map preview" style="width: 100%; max-width: 1000px;" />
 
@@ -15,8 +15,8 @@
 ### 1. 클론하기
 
 ```bash
-git clone https://github.com/moonhyeonjun/vworld-marker-tutorial.git
-cd vworld-marker-tutorial
+git clone https://github.com/moonhyeonjun/vworld-marker-map.git
+cd vworld-marker-map
 ```
 
 ### 2. 브라우저에서 실행
@@ -26,7 +26,7 @@ cd vworld-marker-tutorial
 ## 프로젝트 구조
 
 ```
-vworld-marker-tutorial/
+vworld-marker-map/
 ├── public/
 │   ├── sample.png            # 샘플 이미지
 ├── icons/
