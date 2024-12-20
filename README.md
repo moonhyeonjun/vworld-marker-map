@@ -1,18 +1,18 @@
 # vworld-marker-map
 
-`vworld-marker-map`는 [V-WORLD Open API](https://www.vworld.kr/v4po_main.do)를 사용하여 지도에 마커를 표시하는 간단한 프로젝트입니다.
+`vworld-marker-map`는 [V-WORLD Open API](https://www.vworld.kr/v4po_main.do)를 사용하여 지도에 마커를 표시합니다.
 
 <img src="./public/sample.png" alt="vworld marker map preview" style="width: 100%; max-width: 1000px;" />
 
 ## 주요 기능
 
-- Vworld Open API를 사용한 지도 표시
+- V-WORLD Open API를 사용한 지도 표시
 - 지도 위에 마커 추가 및 위치 설정
 - 기본적인 사용자 인터랙션 구현
 
 ## 설치 및 실행
 
-### 1. 클론하기
+### 1. Clone 하기
 
 ```bash
 git clone https://github.com/moonhyeonjun/vworld-marker-map.git
