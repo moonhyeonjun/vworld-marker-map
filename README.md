@@ -1,6 +1,6 @@
 # vworld-marker-map
 
-`vworld-marker-map`는 V-WORLD Open API를 사용하여 지도에 마커를 표시하는 간단한 프로젝트입니다.
+`vworld-marker-map`는 [V-WORLD Open API](https://www.vworld.kr/v4po_main.do)를 사용하여 지도에 마커를 표시하는 간단한 프로젝트입니다.
 
 <img src="./public/sample.png" alt="vworld marker map preview" style="width: 100%; max-width: 1000px;" />
 
@@ -45,12 +45,15 @@ vworld-marker-map/
 
    - V-WORLD Open API에서 API 키를 발급받습니다. [V-WORLD Open API 발급 링크](https://www.vworld.kr/mypo/mypo_apiKey_i001.do)
    - `index.html` 파일의 API 키 부분을 업데이트합니다:
+
      ```html
      <script src="https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey={YOUR_API_KEY}"></script>
      ```
 
 2. **마커 추가/변경**
+
    - 마커는 `data.js` 파일에서 지정된 좌표에 표시됩니다. 마커를 추가/변경하려면 해당 파일을 수정해주세요.
+
      ```javascript
      const coordinates = [
        { id: 1, latitude: 37.423, longitude: 126.7378 }, // 원하는 위도, 경도로 변경
